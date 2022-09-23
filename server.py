@@ -4,7 +4,7 @@ import string
 
 app = Flask(__name__)
 
-text = 'V2'
+text = 'V3'
 
 def random_id_generator(digit_count):
     return ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(digit_count))
